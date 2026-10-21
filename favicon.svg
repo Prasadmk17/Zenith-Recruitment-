@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="zrNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E274A"/>
+      <stop offset="100%" stop-color="#0B1F3A"/>
+    </linearGradient>
+    <linearGradient id="zrGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C358"/>
+      <stop offset="50%" stop-color="#C9A227"/>
+      <stop offset="100%" stop-color="#9E7C13"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded box -->
+  <rect width="64" height="64" rx="14" fill="url(#zrNavy)"/>
+  <!-- Gold border outline -->
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="url(#zrGold)" stroke-width="1.5" stroke-opacity="0.6"/>
+  <!-- Zenith peak accent icon at the top -->
+  <path d="M32 9 L38 17 L26 17 Z" fill="url(#zrGold)" opacity="0.9"/>
+  <!-- Stylized "ZR" Monogram for Zenith Recrutare -->
+  <text x="32" y="44" 
+        font-family="'Playfair Display', Georgia, serif" 
+        font-size="25" 
+        font-weight="700" 
+        letter-spacing="0.5"
+        fill="url(#zrGold)" 
+        text-anchor="middle">ZR</text>
+  <!-- Subtle baseline accent dot -->
+  <circle cx="32" cy="52" r="1.5" fill="#E5C358" opacity="0.8"/>
+</svg>
